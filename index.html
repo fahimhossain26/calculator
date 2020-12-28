@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanu's Calculator</title>
+  <link rel="stylesheet" href="style.css"> 
+  <script src="aspiringtanu.js"></script>
+  
+  </head>
+  <body>
+
+  <h2>MY CALCULATOR</h2>
+  <div class=tanu>
+  <form name='calculator'>
+  <input id='alo' placeholder='0' type='text' name='display'/><br>
+  <div class='inp'>
+  <input type='button' value='1' onclick="document.calculator.display.value+='1'"/>
+  <input type='button' value='2' onclick="document.calculator.display.value+='2'"/>
+  <input type='button' value='3' onclick="document.calculator.display.value+='3'"/>
+  <input type='button' value='/' onclick="div()"/></div> 
+  <input type='button' value='4' onclick="document.calculator.display.value+='4'"/>
+  <input type='button' value='5' onclick="document.calculator.display.value+='5'"/>
+  <input type='button' value='6' onclick="document.calculator.display.value+='6'"/>
+  <input type='button' value='-' onclick="sub()"/> <br>
+  <input type='button' value='7' onclick="document.calculator.display.value+='7'"/>
+  <input type='button' value='8' onclick="document.calculator.display.value+='8'"/>
+  <input type='button' value='9' onclick="document.calculator.display.value+='9'"/>
+  <input type='button' value='*' onclick="mul()"/><br>
+  <input type='button' value='C' onclick="btnclr()"/>
+  <input type='button' value='0' onclick="document.calculator.display.value+='0'"/>
+  <input type='button' value='=' onclick="document.calculator.display.value=eval(document.calculator.display.value)"/>
+  <input type='button' value='+' onclick="add()"/><br><br>
+  <h3>Made By:<a href="https://tanumalakar.github.io/My-CV/" target="_blank"> Aspiring T@NU</h3></a>
+  </form>
+  </div>
+  <body>
+</html>

@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#alo{
+  background-color: black;
+  color:blanchedalmond;
+  width:304.5px;
+  height: 80px;
+  font-size: 40px;
+  text-align: right;
+}
+
+input{
+  background-color: yellow;
+  width:74px;
+  height:50px;
+  font-size:30px;
+}
+.tanu{
+  position:absolute;
+  left:30%;
+  top:20%;
+}
+h2{
+  position:absolute;
+  left:33.5%;
+  top:10%;
+}
+h3{
+  text-decoration: none;
+}
+input:hover{
+  background-color: silver;
+}
